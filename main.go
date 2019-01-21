@@ -12,7 +12,7 @@ import (
 	"github.com/gorilla/handlers"
 )
 
-// singleJoiningSlash is copied from httputil.singleJoiningSlash method.
+// singleJoiningSlash is copied from the fucking httputil.singleJoiningSlash method.
 func singleJoiningSlash(a, b string) string {
 	aslash := strings.HasSuffix(a, "/")
 	bslash := strings.HasPrefix(b, "/")
